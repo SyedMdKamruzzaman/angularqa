@@ -7,5 +7,5 @@
    - Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished.
 4. Asynchoronous vs Multithreading
    -  multithreading programming is all about concurrent execution of different functions. Async programming is about non-blocking execution between functions, and we can apply async with single-threaded or multithreaded programming. So, multithreading is one form of asynchronous programming.
-5. concatMap - waits for the previous Observable to complete before creating the next one
-switchMap - for any source item, completes the previous Observable and immediately creates the next one
+5. concatMap - waits for the previous Observable to complete before creating the next one. 
+6. switchMap - for any source item, completes the previous Observable and immediately creates the next one
