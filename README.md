@@ -10,4 +10,4 @@
 5. concatMap - waits for the previous Observable to complete before creating the next one. 
 6. switchMap - for any source item, completes the previous Observable and immediately creates the next one
 7. What is the purpose of the pipe() function in RxJS?
-  - The pipe() function in RxJS is used to chain multiple operators together, allowing you to apply a series of transformations to an Observable stream. The pipe() function takes one or more operator functions as arguments and returns a new Observable with the applied transformations.
+   - The pipe() function in RxJS is used to chain multiple operators together, allowing you to apply a series of transformations to an Observable stream. The pipe() function takes one or more operator functions as arguments and returns a new Observable with the applied transformations.
